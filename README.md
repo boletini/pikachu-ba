@@ -7,7 +7,8 @@
 
 Site do tipo site landing page para divulgar o jogo
 let`s Go, Pikachu.
-O objetivo desde projeto é colocar em pratica os conhecimentos adquiridos sobre as linguagens de marcação, HTML, CSS e Marketdown, durante as curso tecnico de desenvolvimento de sistemas do [SENAI Jandira](https://sp.senai.br/unidade/jandira/). 
+objetivo desde projeto é colocar em pratica os conhecimentos adquiridos sobre as linguagens de marcação, HTML, CSS e Marketdown, durante as curso tecnico de desenvolvimento de sistemas do [SENAI Jandira](https://sp.senai.br/unidade/jandira/). 
+
 ---
 
 ## Tecnologias Ultilizadas 
