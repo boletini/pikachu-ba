@@ -22,7 +22,6 @@
  }
  
  header a{
-  
     height: 100%;
     display: flex;
     align-items: center;
@@ -50,23 +49,23 @@
     justify-content: center;
  }
  .title{
-    position: relative;
     text-align: center;
     color: white;
  }
  .title h1{
- font-size: 20vw;
+      font-size: 20vw;
  }
  .title span{
- position: absolute;
- font-size: 25vw;
- top: -40%;
- left: 0;
- opacity: 0.3;
+      position: absolute;
+      font-size: 25vw;
+      top: -10%;
+      left: 0;
+      opacity: 0.3;
  }
  
  .container{
-   display: flex;
+      height: 200px;
+      display: flex;
  }
  .container div{
     width: 50%;
@@ -74,11 +73,10 @@
     z-index: 1;
  }
  .container h2{
-    font-size: 4vw;
+    font-size: 64px;
  }
  .container p{
     width: 35vw;
-    font-size: 1.5vw;
  }
  .action{
     display: flex;
@@ -96,42 +94,22 @@
     font-size: 48px;
  }
  
- footer{
-    height: 50px;
-    color: var(--secondary-color);
-    text-align: center;
-    font-style: italic;
- }
- .Mewtwo-image{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 75vh;
- }
-
-
- @media (max-width){
-   body {
-      background-color: tomato;
+   footer{
+      display: flex;
+      align-items: center;
+      height: 50px;
    }
-
- }
- @media (max-width){
-   body{
-      background-color: palegreen;
-
-   }
- }
-
+ 
  .pikachu-image{
-   transform: translate(-50%, -50%);
-   height: 75hv;
- }
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      height: 60hv;
+ } 
  /* tablet */
  
- @media (max-width:960px){
-   body{
+@media (max-width:960px){
+    body{
       padding-inline: 32px;
    }
    main{
@@ -162,7 +140,9 @@
    height: 50vh;
  }
 
- @media (max max-width:640px){
+   @media
+   (max-width:640px)
+ {
    header.div{
       display: none;
    }
@@ -178,8 +158,33 @@
       font-size: 36px;
    }
    .title span{
-      left: 50%
-      transform: translateX(-50%)
+      position: absolute;
+      font-size: 25vw;
+      top: -10%;
+      left: 50%;
+      opacity: 0.3;
+ 
+    
    }
- }
+}
+
+/* mobile */
+@media(max-width: 640px){
+   header div{
+       display: none;
+   }
+   .container div{
+       width: 100%;
+   }
+   .container p{
+       display: none;
+   }
+   .container h2{
+       font-size: 36px;
+   }
+   .title span{
+       left: 50%;
+       transform: translateX(-50%);
+   }
+}
  
